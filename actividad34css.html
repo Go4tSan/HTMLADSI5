@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Border whith  - Display - Visibility</title>
+    <style type="text/css">
+    body {font-family: arial, verdana,sans-serif; color: #111111;}
+    p{width: 800px; border-style: solid;}
+    p.one {border-width: 2px;}
+    p.two {border-width: thick;}
+    p.three {display: inline; margin-right: 1px 4px 12px 4px;}
+    li {display: inline; margin-right: 10px;}
+    li.proximamente1 {display: none;}
+    li.proximamente2 {visibility: hidden;}
+    </style>
+</head>
+<body>
+  <p class="one">La propiedad border-width se utiliza para contrilar el ancho de un borde.</p>
+  <p class="two">Se utiliza los siguientes valores: thin, medium, thick.</p>
+  <p class="three">Se puede especificar diferentes anchos para los cuatro valores de borde en una propiedad.</p>
+  <br>
+  <p>La propiedad display permite convertir un elemento insertado en un elemento de nivelde bloque o viceversa, y tambien se puede utilizar para 
+    ocultar un elemento de la pagina.</p>
+    <br>
+    <ul>
+      <li>Home</li>
+      <li>Productos</li>
+      <li class="proximamente1">Servicio</li>
+      <li>Acercar</li>
+      <li>Contacto</li>
+    </ul>
+    <br>
+    <p>La propiedad visibility le permite ocultar las casillas de los usuarios, pero deja un espacio donde habrian estado el elemento.</p>
+    <br>
+    <ul>
+    <li>Home</li>
+    <li>Productos</li>
+    <li class="proximamente2">Servicios</li>
+    <li>Acerca</li>
+    <li>Servicios</li>
+    </ul>
+<tr><td><a href="./index.html">Inicio</a></td></tr>  
+</body>
+</html>

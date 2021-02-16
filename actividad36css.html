@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Padding - Margin -Centering Content</title>
+      <style type="text/css">
+      p {width: 400px;
+      height: 100px;
+      border: 15px solid #ffffff;}
+      p.one { -moz-border-image: url("./logo.jpg") 11 11 11 11 stretch;
+      -webkit-border-image: url(./logo.jpg) 11 11 11 11 stretch;
+      border-image: url(./logo.jpg) 11 11 11 11s stretch;}
+     p.two {-moz-border-image: url(./logo.jpg) 11 11 11 11 round;
+     -webkit-border-image: url(./logo.jpg)11 11 11 11 round;
+     border-image: url(./logo.jpg) 11 11 11 11 round;}   
+      </style>
+</head>
+<body>
+  <p class="one">La propiedad border-imagen aplica en una imagen al borde de cualquier cuadro. En este ejemplo toma una imagen 
+    y la corta en nueve piezas.</p>
+    <p class="two">Esta propiedad rquiere tres elementos de informacion:
+      1: La URL de la imagen 2: donde cortar la iamagen 3: Que hacer con los bordes rectos</p>
+  <p>Las propiedades -moz-border-image y -webkit-border-image no esta en la especificaciones CSS, pero ayudan a las versiones 
+    anteriores de chrome, firefox y Safari y mostrar este efecto.
+  </p>
+  <tr><td><a href="index.html">INICIO</a></td></tr>
+</body>
+</html>
