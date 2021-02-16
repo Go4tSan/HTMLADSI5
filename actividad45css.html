@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Empty Cells - Gaps Between Cells</title>
+      <style type="text/css">
+     td.up {border: 1px solid #001522; padding: 15px;}
+     table.one {empty-cells: show;}
+     table.two {empty-cells: hide;}
+     td.down {background-color: #0088dd;padding: 15px; border: 2px solid#000000;}
+     table.three {border-spacing: 5px 15px;}
+     table.four {border-collapse: collapse;}
+      </style>
+<style></style></head>
+<body>
+  <table class="one">
+    <tbody><tr><td class="up">1</td> <td class="up">2</td></tr> 
+    <tr><td class="up">3</td> <td class="up"></td></tr> 
+  </tbody></table>
+  <p>Si hay celda vacias en una tabla, se puede usar la propiedad de celdas vacias para especificar si sus bordees se deben mostar o no. <br>
+  En la tabla superiro, se puede ver que se muestra una celda vacia. En la tabla inferior, la celda esta oculta.
+  </p>
+  <br>
+  <table class="three">
+    <tbody><tr><td class="down">5</td><td class="down">6</td></tr>
+    <tr><td class="down">7</td><td class="down">8</td></tr>
+  </tbody></table>
+  <table class="four">
+    <tbody><tr><td class="down">5</td><td class="down">6</td></tr>
+    <tr><td class="down">5</td><td class="down">6</td></tr>
+  </tbody></table>
+  <p>La propiedad de border-spancing: permite controlas la distancia entre las celdas adyacentes.
+    De forma predeterminada, los exploradores suelen dejar un pequeño hueco entre cada celda de tabla, por lo que si desea aumentar 
+    o diminuir este espacio, la propiedad de: border-spacing le permite controlar la brecha.
+  </p>
+  <br> <a href="./index.html">Inicio</a>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Alingng Form Controls - Solution</title>
+      <style type="text/css">
+        body {font-family: arial, verdana, sans-serif;}
+        div {border-bottom: 1px solid #eeffee; margin: 10px;
+        padding-bottom: 10px; width: 260px;}
+        .title {float: left; width: 100px; text-align: right;
+        padding-right: 10px;}
+        .radio-buttons label {float: none;}
+        .submit {text-align: right;}
+      </style>
+<style></style></head>
+<body>
+<form action="https://calsiferr.github.io/brayan.github.io/actividad15/example.php" method="POST">
+  <div>
+    <label for="name" class="title">Name</label>
+    <input type="text" id="name">
+  </div>
+<div>
+  <label for="email" class="title">Email</label>
+  <input type="email" id="Email" name="email">
+</div>
+<div class="Radio buttons">
+  <span class="radio">Gender</span>
+  <input type="radio" name="gender" id="male" value="M">
+  <label for="male">M</label>
+  <input type="radio" name="gender" id="female" value="F">
+  <label for="female">F</label>
+</div>
+<div class="submit">
+  <input type="submit" value="Register" id="submit">
+</div>
+</form>
+<p>Cada Fila del formulario tiene un titulo que le dice a los usuarios lo que necesitan para ingresar. Para las entradas
+  de texto, el titulo esta en el elemento &lt;label&gt;. Para los btones de radio, el titulo esta en un elmento &lt;span&gt;.
+  Ambos tiene un atributo de clase con un valor de title.</p>
+  <p>Al estabelcer la propiedad width en esos elementos, sabemos que los titulos tendra el mismo ancho. Por lo tanto, los controles 
+    de formulario que se encuentran en el interior se alinean. 
+  </p>
+  <br> <a href="./index.html">Inicio</a>
+
+</body></html>

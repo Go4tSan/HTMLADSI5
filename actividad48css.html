@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Styling Text Inputs</title>
+      <style type="text/css">
+      * {font-family: perpetua, verdana, sans-serif; color: #665544;}
+      input{border-bottom: 1px dotted #dcdddc;
+      border-top: none;
+      border-right: none;
+      border-left: none;
+      padding: 5px;
+      width: 280px;
+      margin-bottom: 20px;}
+      input:focus {border: 1px dotted #dcdcdc; outline: none;}
+      input#submit {color: #ffffff;
+      background-color: #665544;
+      border: none;
+      border-radius: 5px;
+      width: 80px;}
+      input#submit:hover{color: #665544; background-color: #efefef;}
+      fieldset {width: 350;
+      border: 1px solid #dcdcdc;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: right;}
+      legend{background-color: #efefef;
+      border: 1px solid #dcdcdc;
+      border-radius: 10px;
+      padding: 10px 20px;
+      text-align: left;
+      text-transform: uppercase;}
+      </style>
+<style></style></head>
+<body>
+<form>
+  <fieldset>
+    <legend>
+      Boletin
+    </legend>
+    <label for="name">Nombre</label><input type="text" id="name">
+    <label for="name">Email</label><input type="text" id="email">
+    <input type="submit" value="Suscribete" id="submit">
+  </fieldset>
+</form>
+<p>La propiedad fieldset es particualarmente útil para determinar los border de un formulario. En un formulario largo pueden ayudar a agrupar la 
+  informacion relacioada en su interior.
+</p>
+<br> <a href="./index.html">Inicio</a>
+
+
+</body></html>
