@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>parent float-problem</title>
+    <style type="text/css">
+        body {width: 752px; font-family: arial, verdana, sans-serif ; color: #665544;}
+        .clear{clear: both;}
+        p { width: 230px; float: left; margin: 5px;}
+        p.example{ position: relative; top: 40px; left: 100px;}
+        span{font-weight: bold;}
+        div{border: 1px solid #665544;}</style>
+<style></style></head>
+<body><table border="2px"> 
+    <tbody><tr><td><a href="./index.html">Inicio</a></td></tr>
+</tbody></table>
+    <h1>parent float - problem</h1>
+    <h2>Tipos de Bicicletas(3):</h2>
+    <div>
+        <p><span>Monociclo:</span>posee una rueda, no tiene cabrilla, ni frenos, pero si tiene pedales.</p>
+        <p><span>Cuatriciclo:</span> se trata de bicicletas con cuatro ruedas, doble asiento, doble manillar
+        y doble pedal.</p>
+        <p><span>La bicicleta remolque:</span>Posee un remolque portaniños.</p>
+        <p class="clear"><span>Bicicletas Alternativas:</span>Son hechas de bambu.</p>
+        <p><span>La bicicleta panadera:</span> es muy utilitaria y se usa como vehiculo de carga pesada
+        y de transporte.</p>
+        <p><span>bicicleta de alta gama:</span>son bicicletas deportivas y de lujo, son muy costosas.</p>
+        <p class="example">1. Si un elemento contenedor solo contiene elementos flotantes, algunos navegadores
+            lo trataran como si tuviera cero pixeles
+            de alto. como puede ver en este ejemplo, el borde de un pixel asignado al elemento contenedor se 
+            ha contraido, por lo que el cuadro se ve como una linea de dos pixeles.
+        </p>
+    </div>
+</body>
+</html>
