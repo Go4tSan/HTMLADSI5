@@ -53,6 +53,21 @@ a:hover {
         text-align:center;
     }
 }
+    @media screen and (max-width: 600px) {
+    table {
+        width:100%;
+    }
+    tfoot td{
+    	display: block;
+    	text-align: center;
+    }
+    tfoot td:before{
+    	vertical-align: inherit;
+    	content: attr(data-th);
+    	display: block;
+    	text-align: center;
+    }
+}
 #content{
 	width: 90%;
 	max-width: 1250px;
