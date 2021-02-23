@@ -103,7 +103,6 @@ a:hover {
 #blog h1{
 	text-align: center;
 }/*
-
 /*Responsive*/
 @media (min-width: 480px) {
 	#blog-content2 {
@@ -138,7 +137,6 @@ img:hover{
 		z-index: -1;
 	  }*/
 /*Responsive
-
 @media (min-width: 480px) {
 	#table {
 		width: 40%;
