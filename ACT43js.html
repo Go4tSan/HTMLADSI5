@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta chasrset="utf -8">
+        <title>Ejemplo 043</title>
+        <script language="javascript" type="text/javascript">
+        var operacion = prompt("Ingrese una operacion" + "\n+ para la suma" + "\n- para la resta" + "\n* para la multiplicacion" 
+        + "\n/ para la division" + "\nElija una opcion: " );
+        numero1 = prompt("Ingrese el primer numero: ");
+        numero1 = parseInt(numero1);
+        numero2 = prompt("ingrese el segundo numero : ");
+        numero2 = parseInt(numero2);
+        var res = 0;
+        switch (operacion){
+            case '+':
+            res = numero1 + numero2;
+            break;
+            case '-':
+            res = numero1 - numero2;
+            break;
+            case '*' :
+            res = numero1 * numero2;
+            break;
+            case '/':
+            res = numero1 / numero2;
+            break;
+             default:
+             console.log('default');
+             break;
+        }
+        alert('resultado: ' + res);
+        </script>
+    </head>
+    <body>
+        <p>Parrafo Ejercicio 043</p>
+        <p>Programa en javascript para realizar una operacion dependiendo el signo ingresado</p>
+    <tr><td><a href="./index.html">Inicio</a></td></tr>
+    </body>
+</html>
