@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8 /">
+    <title>Ejemplo 045</title>
+    <script language="javascript" type="text/javascript">
+    var nota = prompt("Ingrese una nota entre 1 y 10: ");
+    nota = parseInt(nota);
+    var valLetras ="";
+    switch (nota) {
+        case 1:
+        case 2:
+        case 3:
+        case 4: 
+valLetras = "No Aprobado"
+break;
+case 5: 
+valLetras = "Aprobado"
+break;
+case 6: 
+case 7: 
+valLetras = "Bien"
+break;
+case 8: 
+case 9: 
+valLetras = "Notable"
+break;
+case 10: 
+valLetras = "Excelente"
+break;
+default: 
+alert ("Valor no Valido");
+break;
+    } 
+    alert ('Valor equivalente: ' + valLetras); 
+    </script>
+    </head>
+    <body>
+       <p>Parrafo Ejercicio 045</p>
+       <p>Programa en javascript para devolver el valor equivalente en letras de una calificacion de 1 a 10</p>
+    <tr><td><a href="./index.html">Inicio</a></td></tr>
+    </body>
+    </html>

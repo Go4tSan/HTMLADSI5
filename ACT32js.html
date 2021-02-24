@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset=utf-8/>
+  <title>Ejemplo 28</title>
+  <script language="javascript" type="text/javascript">
+ var n1,n2,n3,M,I,m;
+n1=prompt("ingrese el primer numero: ");
+n2=prompt("ingrese el segundo numero: ");
+n3=prompt("ingrese el tercer numero: ");
+n1=parseInt(n1);
+n2=parseInt(n2);
+n3=parseInt(n3);
+if (n1 > n2 && n1 > n3) {
+M=n1;
+}else{
+if (n2 > n1 && n2 > n3){
+  M=n2;
+}else{
+ M=n3;
+}
+}
+if(n1 < n2 && n1 < n3){
+  m=n1;
+}else{
+    if (n2 < n1 && n2 < n3){
+    m=n2;
+  }else{
+    m=n3;
+  }
+}
+  I=(n1+n2+n3) - (M + m);
+alert("El numero mayor es: " + M + "\nEl numero intermedio es: " + I +
+"\nEl numero menor es: " + m );
+  </script>
+  </head>
+  <body>
+    <tr><td><a href="./index.html">Inicio</a></td></tr>
+  </body>
+  </html>
+

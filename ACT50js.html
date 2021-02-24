@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8 /">
+        <title>Ejercicio 050</title>
+        <script language="javascript" type="text/javascript">
+        var num = prompt("Ingrese un numero entre 0 y 99: ");
+        num = parseInt(num);
+        if(10 <= num && num <= 15){
+            switch (num) {
+               case 10: 
+               alert("diez");
+               break;
+               case 11: 
+               alert("Once");
+               break;
+               case 12: 
+               alert("Doce");
+               break;
+               case 13: 
+               alert("Trece");
+               break;
+               case 14: 
+               alert("Catorce");
+               break;
+               case 15: 
+               alert("Quince");
+               break;
+            }
+        }else {
+            var unidades = num % 10;
+            var decenas = Math.floor(num / 10);
+
+            switch (decenas) {
+                case 0: 
+                alert("");
+                break;
+                case 1: 
+                alert("dieci");
+                break;
+                case 2: 
+                alert("veinti");
+                break;
+                case 3: 
+                alert("cuarenta");
+                break;
+                case 5: 
+                alert("cincuenta");
+                break;
+                case 6: 
+                alert("sesenta");
+                break;
+                case 7: 
+                alert("setenta");
+                break;
+                case 8: 
+                alert("ochenta");
+                break;
+                case 9: 
+                alert("noventa");
+                break;
+            }
+            if (decenas != 0 && decenas != 1 && unidades != 0) {
+                alert(" Y ");
+            }
+            switch (unidades) {
+                case 0: 
+                if (deenas ==0) {
+                    alert("cero");
+                }
+                break;
+                case 1: 
+                alert("uno");
+                break;
+                case 2: 
+                alert("dos");
+                break;
+                case 3: 
+                alert("tres");
+                break;
+                case 4: 
+                alert("cuatro");
+                break;
+                case 5: 
+                alert("cinco");
+                break;
+                case 6: 
+                alert("seis");
+                break;
+                case 7: 
+                alert("siete");
+                break;
+                case 8: 
+                alert("ocho");
+                break;
+                case 9: 
+                alert("nueve");
+                break;
+        }
+    }
+        </script>
+    </head>
+    <body>
+        <p>Parrafo ejercicio  050</p>
+        <p>Programa en javascript para devolver el numero en letras de un digito ingresado entre 0 y 99</p>
+        <tr><td><a href="./index.html">Inicio</a></td></tr>
+    </body>
+</html>
