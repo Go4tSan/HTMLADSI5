@@ -53,23 +53,38 @@ a:hover {
         text-align:center;
     }
 }
+    @media screen and (max-width: 600px) {
+    table {
+        width:100%;
+    }
+    tfoot td{
+    	display: block;
+    	text-align: center;
+    }
+    tfoot td:before{
+    	vertical-align: inherit;
+    	content: attr(data-th);
+    	display: block;
+    	text-align: center;
+    }
+}
 #content{
-	width: 90%;
-	max-width: 1250px;
+	width: 0 auto;
+	max-width: auto;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 20px 30px;
-	position: center;
+	padding: auto;
+	position: absolute;
 	z-index: 100;
 	opacity: .60;
 }
 #blog{
-	margin: auto;
+	margin: 0 auto;
 	background-image: url("BackG2.jpg");
 	background-repeat: repeat;
-	background-size: 100%;
+	background-size: 120%;
 	color: #fff;
-	padding: 10px;
+	padding: 0 auto;
 
 }
 #blog a{
@@ -78,17 +93,16 @@ a:hover {
 
 
 	#table{
-		width: 98%;
-		padding: 10px;
+		width: 100%;
+		padding: 20px;
 		margin: 10px;
-    overflow: hidden;
+    overflow: auto;
     border-color: #f0f0f0;
 		
 	}
 #blog h1{
 	text-align: center;
 }/*
-
 /*Responsive*/
 @media (min-width: 480px) {
 	#blog-content2 {
@@ -105,7 +119,7 @@ a:hover {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-}*/
+}
 /*
 img:hover{
 	opacity: 0.5
@@ -123,7 +137,6 @@ img:hover{
 		z-index: -1;
 	  }*/
 /*Responsive
-
 @media (min-width: 480px) {
 	#table {
 		width: 40%;
