@@ -30,7 +30,7 @@ a:hover {
   }
   @media screen and (max-width: 600px) {
     table {
-        width:100%;
+        width:50%;
     }
     thead {
         display: none;
@@ -69,22 +69,23 @@ a:hover {
     }
 }
 #content{
-	width: 0 auto;
-	max-width: auto;
-	margin-left: auto;
-	margin-right: auto;
-	padding: auto;
+	width: 10px;
+	max-width: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px;
 	position: absolute;
 	z-index: 100;
 	opacity: .60;
 }
 #blog{
-	margin: 0 auto;
+	margin: 10px;
+	padding: 10px;
 	background-image: url("BackG2.jpg");
 	background-repeat: repeat;
-	background-size: 120%;
+	background-size: 100%;
 	color: #fff;
-	padding: 0 auto;
+	
 
 }
 #blog a{
@@ -94,7 +95,7 @@ a:hover {
 
 	#table{
 		width: 100%;
-		padding: 20px;
+		padding: 10px;
 		margin: 10px;
     overflow: auto;
     border-color: #f0f0f0;
@@ -111,14 +112,14 @@ a:hover {
 }
 @media (min-width: 1024px) {
 	#blog-content2 {
-		width: auto;
+		width: 100%;
 	}
 	
 }
 #blog .content2{
 	display: flex;
 	justify-content: center;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 }
 /*
 img:hover{
