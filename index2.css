@@ -9,7 +9,7 @@ html,body{
   padding: 10px;
   background-image: url("Fsociety.jpg");
   background-repeat: repeat;
-  background-position: fixed;
+  background-position: top center;
 }
 canvas{
   display:block;
@@ -57,10 +57,10 @@ canvas{
 /* ---- particles.js container ---- */
 
 #particles-js{
-  width: 90%;
-  height: 150%;
+  width: 98%;
+  height: 120%;
   position: absolute;
-  margin: 0 auto;
-  padding: 0 auto; 
+  margin: 10px;
+  padding: 10px; 
  }
  
