@@ -30,7 +30,7 @@ a:hover {
   }
   @media screen and (max-width: 600px) {
     table {
-        width:50%;
+        width:100%;
     }
     thead {
         display: none;
@@ -69,24 +69,24 @@ a:hover {
     }
 }
 #content{
-	width: 10px;
-	max-width: 10px;
-	margin-left: 10px;
-	margin-right: 10px;
-	padding: 10px;
+	width: 100%;
+	width: 0 auto;
+	max-width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: auto;
 	position: absolute;
-	z-index: 100;
+	z-index: 0.99;
 	opacity: .60;
 }
 #blog{
 	margin: 10px;
-	padding: 10px;
 	background-image: url("BackG2.jpg");
-	background-position:inherit;
 	background-repeat: repeat;
 	background-size: 100%;
+	background-position: center;
 	color: #fff;
-	
+	padding: 10px;
 
 }
 #blog a{
@@ -113,70 +113,12 @@ a:hover {
 }
 @media (min-width: 1024px) {
 	#blog-content2 {
-		width: 100%;
+		width: 50%;
 	}
 	
 }
 #blog .content2{
 	display: flex;
 	justify-content: center;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 }
-/*
-img:hover{
-	opacity: 0.5
-}*/
-	/*#blog{
-		padding-bottom: 10%;
-		background-image: url("BackG2.jpg");
-		background-repeat: repeat;
-		background-size: 100%;	
-	}
-	#particulas-JS{
-		height: 100vh;
-		width: 100%;
-		position: fixed;
-		z-index: -1;
-	  }*/
-/*Responsive
-@media (min-width: 480px) {
-	#table {
-		width: 40%;
-	}
-}
-@media (min-width: 1024px) {
-	#table {
-		width: auto;
-	}
-	
-}
-@media (min-width: 480px) {
-	#cuerpo {
-		width: 40%;
-	}
-}
-@media (min-width: 1024px) {
-	#cuerpo {
-		width: auto;
-	}
-	
-}*//*
-.content2{
-		width: 98%;
-		margin: auto;
-		overflow: hidden;
-		
-	}*/
-/*
-#blog article{
-	margin: 20px;
-}*//*
-#blog img{
-		width: 180px;
-	height: 180px;
-	border-radius: 50%;
-	border: 0.1rem solid #fff;
-}*/
-/*#blog a{
-	color: white;
-}*/
