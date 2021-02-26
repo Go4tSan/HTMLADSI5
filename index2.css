@@ -19,7 +19,7 @@ canvas{
 
 .count-particles{
   background: #000022;
-  position: absolute;
+  position: fixed;
   top: 20px;
   left: 0;
   width: 10px;
